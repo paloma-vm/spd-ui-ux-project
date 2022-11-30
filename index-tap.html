@@ -10,6 +10,7 @@
     <!-- BOOTSTRAP THEME -->
     <!-- <link rel="stylesheet" href="https://bootswatch.com/5/quartz/bootstrap.min.css"> -->
     <!-- CUSTOM STYLES -->
+    <link href="styles.css">
 </head>
 <body>
     <!-- NAVBAR -->
@@ -50,18 +51,19 @@
     <!-- <div class="container col-xxl-8 px-4 py-5 bg-warning mx-0"> -->
         <div class="container-fluid bg-hero">
 
-        <div class="row flex-lg-row align-items-center g-1 py-5">
-          <div class="col-md-6">
-            <!-- <img src="bootstrap-themes.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy"> -->
-            
-            <h1 class="display-5 fw-bold lh-1 mb-3">Help Hunger</h1>
-            <p class="lead d-flex justify-content-around">with a</p>
-          </div>
-          <div class="col-md-6">
-            <h1 class="display-5 fw-bold lh-1 mb-3">Food-e-Donation</h1>
-            <button type="button" class="btn btn-success btn-lg offset-md-3 offset-sm-1">Help Today! <i class="fa-solid fa-cart-shopping"></i></button>
- 
-          </div>
+        <div class="row flex-lg-row align-items-center justify-content-between g-1 py-5">
+            <div class="col-4 text-center">
+                <!-- <img src="bootstrap-themes.png" class="d-block mx-lg-auto img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy"> -->
+                
+                <h1 class="display-6 fw-bold lh-1">Help Hunger</h1>
+            </div>
+            <div class="col-3 text-center">
+                <p class="lead">with a</p>
+            </div>
+            <div class="col-5">
+                <h1 class="display-6 fw-bold lh-1 mb-3">Food-e-Donation</h1>
+                <!-- <button type="button" class="btn btn-success btn-lg offset-md-3 offset-sm-1">Help Today! <i class="fa-solid fa-cart-shopping"></i></button> -->
+            </div>
         </div>
     </div>
     <!-- CATEGORIES -->
@@ -72,24 +74,10 @@
     <div class="container">
         <div class="row">
             <div class="col-md-2">
-                <div class="card">
-                    <div class="card-body">
-                    <h4 class="card-title">donate cash</h4>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-2">
-                <div class="card mb-4 box-shadow">
-                    <div class="position-relative bg-light pb-2 overflow-hidden">
-                        <!-- <img class="img-fluid w-100" src="https://via.placeholder.com/100" alt=""> -->
-                        <img class="img-fluid w-100 rounded" src="images/cereal-box.jpeg" alt="">
-                        <!-- <div class="bg-warning rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">Most Needed</div> -->
-                    </div>
-                    <div class="text-center px-4 pt-3">
-                        <a class="d-block h6 text-decoration-none" href="">$20</a>
-                        <!-- <span class="text-primary">$3.00</span> -->
-                    </div>
-                    <!-- <button type="button" class="w-80 btn btn-sm btn-primary m-3">Add to cart</button> -->
+                <div class="line-title">
+                    
+                    <h4>donate cash</h4>
+                    
                 </div>
             </div>
             <div class="col-md-2">
@@ -134,28 +122,20 @@
                     <!-- <button type="button" class="w-80 btn btn-sm btn-primary m-3">Add to cart</button> -->
                 </div>
             </div>
-            <div class="col-md-2">
-                <div class="card mb-4 box-shadow">
-                    <div class="position-relative bg-light pb-2 overflow-hidden">
-                        <!-- <img class="img-fluid w-100" src="https://via.placeholder.com/100" alt=""> -->
-                        <img class="img-fluid w-100 rounded" src="images/cereal-box.jpeg" alt="">
-                        <!-- <div class="bg-warning rounded text-white position-absolute start-0 top-0 m-4 py-1 px-3">Most Needed</div> -->
-                    </div>
-                    <div class="text-center px-4 pt-3">
-                        <a class="d-block h6 text-decoration-none" href="">$ custom</a>
-                        <!-- <span class="text-primary">$3.00</span> -->
-                    </div>
-                    <!-- <button type="button" class="w-80 btn btn-sm btn-primary m-3">Add to cart</button> -->
-                </div>
-            </div>
+            <div class="col-md-3">
+                <button type="button" class="triangle btn btn-success btn-lg offset-md-3 offset-sm-1">Help Today! <i class="fa-solid fa-cart-shopping"></i></button>
+     
+              </div>
+            
+            
         </div>
 
         <div class="row">
             <div class="col-md-2">
-                <div class="card">
-                    <div class="card-body">
-                    <h4 class="card-title">help a ...</h4>
-                    </div>
+                <div class="line-title">
+                    
+                    <h4>help a ...</h4>
+                    
                 </div>
             </div>
             <div class="col-md-2">
@@ -231,10 +211,10 @@
         </div>
         <div class="row">
             <div class="col-md-2">
-                <div class="card">
-                    <div class="card-body">
-                    <h4 class="card-title">most needed items</h4>
-                    </div>
+                <div class="line-title">
+                    
+                    <h4>most needed items</h4>
+                    
                 </div>
             </div>
             <div class="col-md-2">

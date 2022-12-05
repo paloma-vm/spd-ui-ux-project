@@ -1,3 +1,18 @@
-/* .triangle {
+:root {
+    --bs-primary: #ffea6c;
 
-} */
+    --bs-secondary: rgba(255, 255, 255, 0.4);
+    --bs-success: #41d7a7;
+    --bs-info: #39cbfb;
+    --bs-warning: #ffc107;
+    --bs-danger: #fd7e14;
+    --bs-light: #e9e9e8;
+    /* --bs-dark: #212529; */
+    --bs-dark: #000a49;
+}
+
+body{
+    /* background-color: #fff5b6; */
+    background-color: #fffef8;
+    
+}

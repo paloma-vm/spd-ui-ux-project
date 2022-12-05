@@ -1,0 +1,5 @@
+orange: #ff9a55
+yellow: #ffea6c
+cyan: #54fffb
+lilac: #e7b2ff
+mint: #e7b2ff

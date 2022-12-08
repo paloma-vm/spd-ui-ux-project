@@ -11,6 +11,7 @@ body{
 
 .first-row {
     background-color: #89ffcc;
+    /* box-shadow: 0.5px 0.5px 0.5px 0.5px; */
 }
 
 .second-row {
@@ -31,5 +32,28 @@ a {
 
 .card {
     overflow: hidden;
+    
 }
+#donation-title {
+    text-shadow: 2px 2px 2px #89ffcc;
+}
+/* #hunger-title {
+    text-shadow: 2px 2px 2px #ff9a55;
+} */
 
+/* .bg-hero {
+    background-color: #ffea6c;
+} */
+/* Ran out of time to work on this */
+/* .tip {
+    background-image: url("images/tiptap_12x18-3DV_Counter-DisplayMU-Give-EN_2974ffac-43b9-4cd8-b73a-1e225931b896_1024x1024@2x.webp");
+    position: absolute;
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+} */

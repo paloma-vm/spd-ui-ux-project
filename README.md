@@ -7,4 +7,4 @@ The tap-version is the one I am working on for this class.
 
 [Here](screenshots/page-3.png) are the screenshots of the pages.
 
-[Here]() is the live page.
+[Here](https://paloma-vm.github.io/spd-ui-ux-project/) is the live page.
